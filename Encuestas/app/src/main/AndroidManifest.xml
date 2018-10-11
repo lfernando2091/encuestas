@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.saganet.encuestas">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <!-- Needed only if your app targets Android 5.0 (API level 21) or higher. -->
+    <uses-feature android:name="android.hardware.location.network" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Loging">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Menu"
+            android:label="@string/title_activity_menu"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddContacto"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_add_contacto"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".setcuestionario"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_setcuestionario"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MenuEncuestasContent"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_menu_encuestas_content"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EncuestasRespuestaDoc"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_encuestas_respuesta_doc"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".VideoBase"
+            android:label="@string/title_activity_video_base"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

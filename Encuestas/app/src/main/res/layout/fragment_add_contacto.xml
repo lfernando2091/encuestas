@@ -1,0 +1,216 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical"
+    tools:context="com.saganet.encuestas.AddContactoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:animateLayoutChanges="true"
+        android:layout_marginLeft="@dimen/text_new_account"
+        android:layout_marginRight="@dimen/text_new_account"
+        android:layout_marginTop="@dimen/text_new_account">
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_new_account"
+        android:text="Encuesta"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_Encuesta"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_new_account"
+        android:background="@color/colorPrimary"></TextView>
+
+    <android.support.design.widget.TextInputLayout
+    android:id="@+id/til_nombre"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/activity_vertical_margin">
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/et_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:textSize="@dimen/text_new_account"
+        android:hint="Nombre"
+        android:inputType="textCapCharacters"
+        tools:text="Luis Fernando" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_paterno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/et_paterno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:textSize="@dimen/text_new_account"
+            android:hint="Apellido Paterno"
+            android:inputType="textCapCharacters"
+            tools:text="Hernández" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_materno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/et_materno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Apellido Materno"
+            tools:textSize="@dimen/text_new_account"
+            android:inputType="textCapCharacters"
+            tools:text="Méndez" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_calle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/et_calle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:textSize="@dimen/text_new_account"
+            android:hint="Calle"
+            android:inputType="textCapCharacters"
+            tools:text="Pedernales" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_colonia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/et_colonia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:textSize="@dimen/text_new_account"
+            android:hint="Colonia"
+            android:inputType="textCapCharacters"
+            tools:text="Franseces 45" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_numext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/et_numext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:textSize="@dimen/text_new_account"
+            android:hint="Numero Exterior"
+            android:inputType="textCapCharacters"
+            tools:text="45" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_numint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/et_numint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:textSize="@dimen/text_new_account"
+            android:hint="Numero Interior"
+            android:inputType="textCapCharacters"
+            tools:text="128" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_codpostal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/et_codpostal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:textSize="@dimen/text_new_account"
+            android:hint="Codigo Postal"
+            android:inputType="number"
+            tools:text="45502" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/til_municipio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/et_municipio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Municipio"
+            tools:textSize="@dimen/text_new_account"
+            android:inputType="number"
+            tools:text="Huejutla de Reyes" />
+    </android.support.design.widget.TextInputLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_new_account"
+            android:text="Entidad Federativa"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:textSize="@dimen/text_new_account"
+            android:id="@+id/et_entidad"
+            android:spinnerMode="dialog"></Spinner>
+    <TextView
+        android:textSize="@dimen/text_new_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha de Nacimiento"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:text="23/06/2016"
+            android:id="@+id/et_fecnac" />
+        <Button
+            android:textSize="@dimen/text_new_account"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Seleccionar"
+            android:id="@+id/btnSelFech" />
+    <TextView
+        android:textSize="@dimen/text_new_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Genero"/>
+    <Spinner
+        android:textSize="@dimen/text_new_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/et_genero">
+    </Spinner>
+    </LinearLayout>
+</ScrollView>

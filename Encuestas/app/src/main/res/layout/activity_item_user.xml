@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:minHeight="?listPreferredItemHeight"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="10dp">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:text="New User"
+        android:textAppearance="?textAppearanceListItem"
+        tools:text="Luis Fernando" />
+    <TextView
+        android:id="@+id/tv_status_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name"
+        android:layout_alignLeft="@id/tv_name"
+        android:textSize="12dp"
+        android:textColor="@color/colorPrimaryDark"
+        tools:text="Agregado Manualmente" />
+    <ImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="30dp"
+        android:layout_alignTop="@+id/tv_name"
+        android:layout_alignParentTop="true"
+        android:layout_height="30dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/ic_account_circle" />
+</RelativeLayout>

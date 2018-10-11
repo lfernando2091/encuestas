@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">CGF Encuestas</string>
+    <string name="app_log_txt1">Usuario</string>
+    <string name="app_log_txt2">Contraseña</string>
+    <string name="app_log_txt3">Iniciar Sesión</string>
+    <string name="title_activity_menu">CGF Encuestas</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_item_user">ItemUser</string>
+    <string name="title_activity_add_contact">Nuevo contacto</string>
+    <string name="title_activity_add_contacto">Nuevo contacto</string>
+    <string-array name="genero">
+        <item>Hombre</item>
+        <item>Mujer</item>
+    </string-array>
+    <string-array name="estados">
+        <item>Aguascalientes</item>
+        <item>Baja California</item>
+        <item>Baja California Sur</item>
+        <item>Campeche</item>
+        <item>Chiapas</item>
+        <item>Coahuila</item>
+        <item>Colima</item>
+        <item>Durango</item>
+        <item>Estado de México</item>
+        <item>Guanajuato</item>
+        <item>Guerrero</item>
+        <item>Hidalgo</item>
+        <item>Jalisco</item>
+        <item>Michoacán</item>
+        <item>Morelos</item>
+        <item>Nayarit</item>
+        <item>Nuevo León</item>
+        <item>Oaxaca</item>
+        <item>Puebla</item>
+        <item>Querétaro</item>
+        <item>Quintana Roo</item>
+        <item>San Luis Potosí</item>
+        <item>Sinaloa</item>
+        <item>Sonora</item>
+        <item>Tabasco</item>
+        <item>Tamaulipas</item>
+        <item>Tlaxcala</item>
+        <item>Veracruz</item>
+        <item>Yucatán</item>
+        <item>Zacatecas</item>
+    </string-array>
+    <string name="title_activity_setcuestionario">Cuestionario</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu_encuestas_content">Contactos</string>
+    <string name="title_activity_encuestas_respuesta_doc">Encuestas Realizadas</string>
+    <string name="_sdcard_dir">/sdcard/SyncEncuestas/</string>
+    <string name="title_activity_video_base">Video</string>
+</resources>

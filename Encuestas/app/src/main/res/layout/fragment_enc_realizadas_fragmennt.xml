@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    tools:context="com.saganet.encuestas.EncRealizadasFragmennt">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:divider="@color/colorAccent"
+        android:dividerHeight="1sp"
+        tools:listitem="@layout/item_encuesta"
+        android:id="@+id/encuestas_list" />
+
+</FrameLayout>

@@ -1,0 +1,209 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.saganet.encuestas.ContactInfoFragment">
+    <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical">
+            <!-- TODO: Update blank fragment layout -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="7dp"
+                android:textSize="25dp"
+                android:text="ID:" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorDark"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:text="@string/hello_blank_fragment"
+                android:id="@+id/t_idcontacto_c" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="25dp"
+                android:text="ID Precarga: " />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorDark"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:text="@string/hello_blank_fragment"
+                android:id="@+id/t_idprecarga_c" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="25dp"
+                android:text="Nombre Encuesta:" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorDark"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:text="@string/hello_blank_fragment"
+                android:id="@+id/t_nomencuesta_c" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="25dp"
+                android:text="Nombre Completo: " />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorDark"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:text="@string/hello_blank_fragment"
+                android:id="@+id/t_nombreus_c" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="25dp"
+                android:text="Calle: " />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorDark"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:text="@string/hello_blank_fragment"
+                android:id="@+id/t_calleus_c" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="25dp"
+                android:text="Colonia: " />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorDark"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:text="@string/hello_blank_fragment"
+                android:id="@+id/t_coloniaus_c" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="25dp"
+                android:text="Numero Exterior: " />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorDark"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:text="@string/hello_blank_fragment"
+                android:id="@+id/t_munext_c" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="25dp"
+                android:text="Numero Interior: " />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorDark"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:text="@string/hello_blank_fragment"
+                android:id="@+id/t_numintus_c" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="25dp"
+                android:text="Código Postal: " />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorDark"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:text="@string/hello_blank_fragment"
+                android:id="@+id/t_codpostus_c" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="25dp"
+                android:text="Entidad: " />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorDark"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:text="@string/hello_blank_fragment"
+                android:id="@+id/t_entidadus_c" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="25dp"
+                android:text="Municipio: " />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorDark"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:text="@string/hello_blank_fragment"
+                android:id="@+id/t_municipious_c" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="25dp"
+                android:text="Fecha de nacimiento: " />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorDark"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:text="@string/hello_blank_fragment"
+                android:id="@+id/t_fechnacus_c" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="25dp"
+                android:text="Genero: " />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorDark"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:text="@string/hello_blank_fragment"
+                android:id="@+id/t_genus_c" />
+
+            <Button android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Motivo no encuesta"
+                android:id="@+id/b_tag_c" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Cancelar"
+                    android:id="@+id/b_cancel_c" />
+                <Button android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Iniciar Encuesta"
+                    android:id="@+id/b_ok_c" />
+            </LinearLayout>
+        </LinearLayout>
+</ScrollView >
